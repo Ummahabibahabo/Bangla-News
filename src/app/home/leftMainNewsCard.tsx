@@ -32,7 +32,7 @@ const LeftMainNewsCard = ({ mainNewsCard }: LeftMainNewsCardProps) => {
   return (
     <div className="h-full overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm">
       <Image
-        className="h-[230px] w-full object-cover"
+        className="h-[300px] w-full object-cover"
         src={imageUrl}
         alt={imageAlt}
         height={600}
